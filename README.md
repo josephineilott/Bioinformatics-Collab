@@ -3,10 +3,12 @@ Josephine and Guille - Bioinformatics collaboration
 Two-Sample Mendelian Randomisation 🧬
 
 25(OH)D -> Carotid artery plaque risk
+R / Python / UNIX
+
 
 # Steps #
 
-- Mine GWAS-derived VCFs (exposure and outcome)
+- Mine GWAS-derived VCFs (exposure and outcome) - Bash script
 - Python script -> VCFs -> TSV format
 - R Script -> manhattan or scatter plots (X = chr, Y = -log10(P)
 - Set SNP selection cutt-offs at P < 5e-08 
